@@ -333,23 +333,23 @@ const char D_MSG_DISPLAY_OFF[] PROGMEM = "Turned display off";
 const char D_MSG_DISPLAY_ON[] PROGMEM = "Turned display on";
 
 // LOADING SCREEN
-const char DSP_SCAN_FOR[] PROGMEM = "Scan for";
+const char DSP_SCAN_FOR[] PROGMEM = "Procurar";
 const char DSP_APS[] PROGMEM = "APs";
-const char DSP_STS[] PROGMEM = "STs";
-const char DSP_PKTS[] PROGMEM = "Pkts";
+const char DSP_STS[] PROGMEM = "Clientes";
+const char DSP_PKTS[] PROGMEM = "Pacotes";
 const char DSP_S[] PROGMEM = "/s";
-const char DSP_SCAN_DONE[] PROGMEM = "Done";
+const char DSP_SCAN_DONE[] PROGMEM = "Comcluido";
 
 // ALL MENUS
-const char D_BACK[] PROGMEM = "[BACK]";
-const char D_REMOVE_ALL[] PROGMEM = "REMOVE ALL";
-const char D_SELECT[] PROGMEM = "SELECT";
-const char D_DESELECT[] PROGMEM = "DESELECT";
-const char D_REMOVE[] PROGMEM = "REMOVE";
-const char D_SELECT_ALL[] PROGMEM = "SELECT ALL";
-const char D_DESELECT_ALL[] PROGMEM = "DESELECT ALL";
+const char D_BACK[] PROGMEM = "[VOLTAR]";
+const char D_REMOVE_ALL[] PROGMEM = "DELETAR TUDO";
+const char D_SELECT[] PROGMEM = "SELECIONAR";
+const char D_DESELECT[] PROGMEM = "DESSELECIONAR";
+const char D_REMOVE[] PROGMEM = "REMOVER";
+const char D_SELECT_ALL[] PROGMEM = "SELECIONAR TUDO";
+const char D_DESELECT_ALL[] PROGMEM = "DESMARCAR TODOS";
 const char D_CLONE[] PROGMEM = "CLONE SSID";
-const char D_LED[] PROGMEM = "LED";
+const char D_LED[] PROGMEM = "LED LANTERNA";
 
 // BUTTON TEST
 const char D_UP[] PROGMEM = "UP:";
@@ -360,45 +360,45 @@ const char D_B[] PROGMEM = "A:";
 const char D_A[] PROGMEM = "B:";
 
 // MAIN MENU
-const char D_SCAN[] PROGMEM = "SCAN";
-const char D_SHOW[] PROGMEM = "SELECT";
-const char D_ATTACK[] PROGMEM = "ATTACK";
-const char D_PACKET_MONITOR[] PROGMEM = "PACKET MONITOR";
-const char D_CLOCK[] PROGMEM = "CLOCK";
-const char D_CLOCK_DISPLAY[] PROGMEM = "CLOCK DISPLAY";
-const char D_CLOCK_SET[] PROGMEM = "SET CLOCK";
+const char D_SCAN[] PROGMEM = "PROCURAR WI-FI";
+const char D_SHOW[] PROGMEM = "SELECIONAR APs";
+const char D_ATTACK[] PROGMEM = "ATAQUES APs";
+const char D_PACKET_MONITOR[] PROGMEM = "MONITOR PACOTES";
+const char D_CLOCK[] PROGMEM = "RELOGIO";
+const char D_CLOCK_DISPLAY[] PROGMEM = "HORAS RELOGIO";
+const char D_CLOCK_SET[] PROGMEM = "AJUSTAR RELOGIO";
 
 // SCAN MENU
-const char D_SCAN_APST[] PROGMEM = "SCAN AP + ST";
-const char D_SCAN_AP[] PROGMEM = "SCAN APs";
-const char D_SCAN_ST[] PROGMEM = "SCAN Stations";
+const char D_SCAN_APST[] PROGMEM = "PROCURAR APs + CT";
+const char D_SCAN_AP[] PROGMEM = "PROCURAR APs";
+const char D_SCAN_ST[] PROGMEM = "PROCURAR CLIENTES";
 
 // SHOW MENU
 const char D_ACCESSPOINTS[] PROGMEM = "APs ";
-const char D_STATIONS[] PROGMEM = "Stations ";
-const char D_NAMES[] PROGMEM = "Names ";
+const char D_STATIONS[] PROGMEM = "Clientes ";
+const char D_NAMES[] PROGMEM = "Nomes ";
 const char D_SSIDS[] PROGMEM = "SSIDs ";
 
 // SSID LIST MENU
-const char D_CLONE_APS[] PROGMEM = "CLONE APs";
-const char D_RANDOM_MODE[] PROGMEM = "RANDOM MODE";
+const char D_CLONE_APS[] PROGMEM = "CLONAR APs";
+const char D_RANDOM_MODE[] PROGMEM = "MODO ALEATORIO";
 
 // ATTACK MENU
 const char D_DEAUTH[] PROGMEM = "DEAUTH";
-const char D_BEACON[] PROGMEM = "BEACON";
+const char D_BEACON[] PROGMEM = "CLONE";
 const char D_PROBE[] PROGMEM = "PROBE";
-const char D_START_ATTACK[] PROGMEM = "START";
-const char D_STOP_ATTACK[] PROGMEM = "STOP";
+const char D_START_ATTACK[] PROGMEM = "OK";
+const char D_STOP_ATTACK[] PROGMEM = "PARAR";
 
 // SUB MENUS
 const char D_ENCRYPTION[] PROGMEM = "Encryption:";
 const char D_RSSI[] PROGMEM = "RSSI:";
-const char D_CHANNEL[] PROGMEM = "Channel:";
-const char D_CH[] PROGMEM = "Ch";
-const char D_VENDOR[] PROGMEM = "Vendor:";
+const char D_CHANNEL[] PROGMEM = "Canal:";
+const char D_CH[] PROGMEM = "Canal";
+const char D_VENDOR[] PROGMEM = "Fornecedor:";
 const char D_AP[] PROGMEM = "AP:";
-const char D_PKTS[] PROGMEM = "pkts";
-const char D_SEEN[] PROGMEM = "Seen:";
+const char D_PKTS[] PROGMEM = "Pcts";
+const char D_SEEN[] PROGMEM = "Visto:";
 
 // ===== STATIONS ===== //
 const char ST_CLEARED_LIST[] PROGMEM = "Cleared station list";
@@ -512,8 +512,8 @@ const char SC_SAVED[] PROGMEM = "Saved scan results";
 const char SC_SAVED_IN[] PROGMEM = "Scan results saved in ";
 const char SC_MODE_OFF[] PROGMEM = "-";
 const char SC_MODE_AP[] PROGMEM = "APs";
-const char SC_MODE_ST[] PROGMEM = "STs";
-const char SC_MODE_ALL[] PROGMEM = "AP+ST";
+const char SC_MODE_ST[] PROGMEM = "CLIENTES";
+const char SC_MODE_ALL[] PROGMEM = "AP+CT";
 const char SC_MODE_SNIFFER[] PROGMEM = "Sniffer";
 
 // ===== FUNCTIONS ===== //
