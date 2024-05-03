@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ESP8266 Deauther
 
 <img src='https://deauther.com/img/logo.png' alt='Deauther Logo' width='200' />
@@ -36,3 +37,6 @@ Neither the ESP8266, nor its SDK was meant or built for such purposes. **Bugs ca
 **Use it only against your own networks and devices!**  
 Please check the legal regulations in your country before using it.  
 We don't take any responsibility for what you do with this program.  # Deauther8266-BRs
+=======
+# Deather-PT_BR
+>>>>>>> c54b8d4f05a24f68e9df7504b23b1ca0ad4b04af
